@@ -8,20 +8,82 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/custom-style.css">
-    <link rel="shortcut icon" type="x-icon" href="../images/logo.png">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/custom-style.css">
+    <link rel="shortcut icon" type="x-icon" href="./images/logo.png">
     <title>Burger Bhai | Top of Taste</title>
-    <style>
-        .nav-link:hover {
-            color: #ff853e !important;
-        }
-    </style>
 </head>
 
 <body>
+    <!-- ! New Carousel -->
+    <div class="container part1">
+        <div class="top-img">
+            <div class="carousel slide carousel-inner" data-bs-ride="carousel" data-bs-touch="true"
+                data-bs-pause="false">
+                <!-- ! autoplay start after complete of the code -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3500">
+                        <div class="carousel-item1">
+                            <img src="./images/img11.jpg" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h2 class="top_heading_text" style="align-items: left;">Fast Food Restaurant</h2>
+                            <p class="top_heading_subline_text">Doloremque, itaque aperiam facilis rerum, commodi,
+                                temporibus sapiente ad mollitia
+                                laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat
+                                dolore, iste magni quos nihil ducimus libero ipsam.
+                            </p>
+                            <a href="#" class="order_now mt-2">
+                                Order Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3500">
+                        <div class="carousel-item2 img-fluid">
+                            <img src="./images/img13-hr.jpg" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h2 class="top_heading_text" style="align-items: last baseline;">Fast Food Restaurant</h2>
+                            <p class="top_heading_subline_text">Doloremque, itaque aperiam facilis rerum, commodi,
+                                temporibus sapiente ad mollitia
+                                laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat
+                                dolore, iste magni quos nihil ducimus libero ipsam.
+                            </p>
+                            <a href="#" class="order_now mt-2">
+                                Order Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3500">
+                        <div class="carousel-item3">
+                            <img src="./images/img12-2k.jpg" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h2 style="align-items: last baseline;" class="top_heading_text">Fast Food Restaurant</h2>
+                            <p class="top_heading_subline_text">Doloremque, itaque aperiam facilis rerum, commodi,
+                                temporibus sapiente ad mollitia
+                                laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat
+                                dolore, iste magni quos nihil ducimus libero ipsam.
+                            </p>
+                            <a href="#" class="order_now mt-2">
+                                Order Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- ! Header Start -->
-    <nav class="navbar navbar-expand-lg bg-none" style="background-color: #222222;">
+    <nav class="navbar navbar-expand-lg bg-none">
         <div class="container-fluid my-3">
             <a class="navbar-brand text-white ms-4" href="index.html">Burger Bhai</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -39,13 +101,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto custom-navbar">
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: white; " href="index.html">HOME</a>
+                        <a class="nav-link active" id="home" aria-current="page" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="offers.html">OFFERS</a>
+                        <a class="nav-link" href="./html/offers.html">OFFERS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="menu" aria-current="page" href="menu.html">MENU</a>
+                        <a class="nav-link" href="./html/menu.html">MENU</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
@@ -97,7 +159,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
+                        <a class="nav-link" href="./html/about.html">ABOUT</a>
                     </li>
                 </ul>
 
@@ -141,9 +203,84 @@
         </div>
     </nav>
     <!-- ! Header End -->
+    </div>
+    <!-- ! offer start-->
+    <div class="container part2">
+        <div class="heading_container">
+            <h2>
+                Ramadan Special Offers
+            </h2>
+        </div>
+        <div class="row grid">
+            <div class="col-md-6">
+                <div class="box1">
+                    <div class="img_control">
+                        <img src="./images/img8.avif" class="img_part" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="box_title">Tasty Fridays</h3>
+                        <h5 class="box_subtitle mb-2 text-body-secondary"><span class="offer_percentage">20%</span><span
+                                class="offer_sub">off</span>
+                        </h5>
+                        <a href="#" class="offer_order_link">
+                            <div>Order Now</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box1">
+                    <div class="img_control">
+                        <img src="./images/pizza_offer.jpeg" class="img_part" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="box_title">Pizza Days</h3>
+                        <h5 class="box_subtitle mb-2 text-body-secondary"><span class="offer_percentage">15%</span><span
+                                class="offer_sub">off</span>
+                        </h5>
+                        <a href="#" class="offer_order_link">
+                            <div>Order Now</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box1">
+                    <div class="img_control">
+                        <img src="./images/img9.jpeg" class="img_part" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="box_title">Free Delivery Offers</h3>
+                        <h5 class="box_subtitle mb-2 text-body-secondary"><span class="offer_percentage">15%</span><span
+                                class="offer_sub">off</span>
+                        </h5>
+                        <a href="#" class="offer_order_link">
+                            <div>Order Now</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ! offer end-->
 
     <!-- ! select food start -->
-    <div class="container" style="margin-top: 150px;">
+    <div class="container">
         <div class="heading_container">
             <h2>
                 Our Menu
@@ -163,7 +300,7 @@
                 <div class="col-sm-6 col-lg-4 all pizza">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem2.png" class="img_link"></img>
+                            <img src="./images/fitem2.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -187,7 +324,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem1.png" class="img_link"></img>
+                            <img src="./images/fitem1.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -211,7 +348,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem3.png" class="img_link"></img>
+                            <img src="./images/fitem3.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -235,7 +372,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem4.png" class="img_link"></img>
+                            <img src="./images/fitem4.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -259,7 +396,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem5.png" class="img_link"></img>
+                            <img src="./images/fitem5.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -283,7 +420,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem6.png" class="img_link"></img>
+                            <img src="./images/fitem6.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -307,7 +444,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem7.png" class="img_link"></img>
+                            <img src="./images/fitem7.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -331,7 +468,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem8.png" class="img_link"></img>
+                            <img src="./images/fitem8.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -355,7 +492,7 @@
                 <div class="col-sm-6 col-lg-4 all burger">
                     <div class="box">
                         <div class="img-box">
-                            <img src="../images/fitem9.png" class="img_link"></img>
+                            <img src="./images/fitem9.png" class="img_link"></img>
                         </div>
                         <div class="food_detail-box">
                             <div class="detail-box">
@@ -386,6 +523,39 @@
         </div>
     </div>
     <!-- ! select food end -->
+
+    <!-- ! about us start -->
+
+    <div class="about_us_section mt-4">
+        <div class="container">
+            <div class="row row_padding">
+                <div class="col-md-6 img_col">
+                    <div class="about_us_img">
+                        <img class="img-fluid" src="./images/about_us.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 about_us_col">
+                    <div class="about_us_detail">
+                        <h4 class="about_us_headline">
+                            About Burger Bhai
+                        </h4>
+                        <div class="about_us_description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae culpa aliquam
+                            reiciendis. Iure sint cum consectetur tenetur est fugiat architecto exercitationem
+                            voluptatum. Repellat id dolores facilis accusamus reiciendis nesciunt officia. Lorem ipsum
+                            dolor, sit amet consectetur adipisicing elit. Optio natus consequatur ducimus quos rerum
+                            accusamus cupiditate exercitationem, vero architecto odio iste nihil fugiat, modi est
+                            veritatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, sapiente.
+                        </div>
+                        <a class="read_more" href="">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ! about us end -->
 
     <!-- ! footer design -->
     <footer class="footer_section">
@@ -496,15 +666,14 @@
             <div class="footer-info">
                 <p>
                     &copy; All Rights Reserved By
-                    <a class="copyright-owner" href="../html/index.html">Burger Bhai</a>
+                    <a class="copyright-owner" href="./index.html">Burger Bhai</a>
                 </p>
             </div>
         </div>
     </footer>
     <!-- ! footer design -->
 
-    <script src="../css/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../css/bootstrap/js/app.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </body>
 
